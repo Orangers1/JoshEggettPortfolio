@@ -41,14 +41,16 @@
 /* Style for page title */
 #home h1 {
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 2.5em;
+
     display: inline-block;
-    background: linear-gradient(to right, #bfeefd, orange);
-    background-clip: text;
+    background: linear-gradient(to right, #ffe0b8, orange);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 #home p {
@@ -56,7 +58,7 @@
     color: white;
     font-weight: 100;
     font-size: 1.2em;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 /* Style for about me section */
@@ -67,10 +69,11 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     display: inline-block;
-    background: linear-gradient(to right, #bfeefd, orange);
+    background: linear-gradient(to right, #ffe0b8, orange);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    margin-top: 40px;
 }
 
 #about p {
