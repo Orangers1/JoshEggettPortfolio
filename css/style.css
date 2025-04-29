@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Navbar Section */
+
+.navbar-nav li a i {
+    font-size: 2.4em;
+    color: orange;
+}
+
+.navbar-nav li a i:hover {
+    color: #ffd9b3;
+}
+
+.navbar-default {
+    background-color: black;
+    border: none;
+}
+
+.navbar-brand {
+    color: orange !important;
+    font-size: 2em;
+}
+
+.navbar-brand:hover {
+    color: #ffd9b3 !important;
+}
+
+.navbar-divider {
+    height: 2px;
+    background-color: orange;
+    width: 85%;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Ensure the parent container aligns content to the left */
+#home {
+    text-align: left; /* Align all content in the #home section to the left */
+}
+
+/* Style for page title */
+#home h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    background: linear-gradient(to right, #bfeefd, orange);
+    background-clip: text;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+}
+
+#home p {
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Style for about me section */
+
+#about h2 {
+    text-align: left;
+    color: #bfeefd;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    background: linear-gradient(to right, #bfeefd, orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#about p {
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Body Section */
+
+body {
+    background-color: black;
+    color: white;
+}
+
+/* Button styling Section */
+
+.btn-primary {
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: #ffd9b3;
+    border-color: #ffd9b3;
+    color: black;
+}
+
+/* Project cards styling section */
+
+.project-card {
+    background-color: #cc6600;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    background-color: #e67300;
+}
+
+.project-image {
+    width: 90%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Project Overview Section */
+#project-overview {
+    margin-top: 40px;
+    color: white;
+}
+
+.project-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5em;
+    background: linear-gradient(to right, #bfeefd, orange);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.project-meta {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #bfeefd;
+    margin-bottom: 20px;
+}
+
+.project-description {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.project-links .btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.project-logo {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.project-details {
+    font-size: 1em;
+    line-height: 1.6;
+    margin-top: 20px;
+    color: #bfeefd;
+}
