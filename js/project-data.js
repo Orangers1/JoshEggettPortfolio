@@ -25,7 +25,7 @@ const projects = {
       title: "Portfolio Website",
       meta: "2025 • Web Development • HTML, CSS, JavaScript",
       description: "Basic website to showcase my projects and skills. This website is built using HTML, CSS, and JavaScript, and is designed to showcase projects and uses basic javascript to dynamically load project data for the project list and overview pages.",
-      description2: "",
+      description2: "The readme is missing from the repository as github pages would default to opening the README.md file instead of the index.html file, and I haven't fixed this yet. The website is still in active development, and I plan to add more projects and features in the future.",
       github: "https://github.com/Orangers1/JoshEggettPortfolio",
       release: "https://orangers1.github.io/JoshEggettPortfolio/",
       image: "assets/PortfolioSiteImage.png",
@@ -40,5 +40,15 @@ const projects = {
         release: "https://github.com/Orangers1/2131J-2022-2023-Robotics-Code",
         image: "assets/vexRoboticsImage.png",
         details: "No release version of the code is available as it was built for the specific Vex Robotics hardware and API. However, the source code is available on GitHub for reference."
+    },
+    project5: {
+        title: "Sprite Smith",
+        meta: "2025 • Application Development • C++ - QT",
+        description: "A simple application to create sprites and view animation. Developed as a small team during school.",
+        description2: "This project was developed in a more structured format to learn about software development methodologies with stricter deadlines and requirements such as waterfall.",
+        github: "https://github.com/Orangers1/Sprite-Smith",
+        release: "https://github.com/Orangers1/Sprite-Smith",
+        image: "assets/SpriteSmithImage.png",
+        details: "Currently no release build of the app but the source code is available on GitHub. The version history is missing as it was originally developed in a private repository and later migrated here.",
     }
   };
