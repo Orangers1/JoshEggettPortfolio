@@ -7,15 +7,13 @@ function loadProjects() {
   
       // Create a card for each project
       const card = document.createElement("div");
-      card.className = "col-md-4";
+      card.className = "project-card";
   
       card.innerHTML = `
         <a href="project-overview.html?project=${key}" class="project-link">
-          <div class="project-card">
-            <h3>${project.title}</h3>
-            <img src="${project.image}" alt="${project.title}" class="project-image">
-            <p>${project.description}</p>
-          </div>
+          <h3>${project.title}</h3>
+          <img src="${project.image}" alt="${project.title}" class="project-image">
+          <p>${project.description}</p>
         </a>
       `;
   
