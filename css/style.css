@@ -1,16 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
-@media (max-width: 1024px) {
-    .project-card {
-        width: calc(50% - 20px); /* Two cards per row */
-    }
-}
 
-@media (max-width: 768px) {
-    .project-card {
-        width: calc(100% - 20px); /* One card per row */
-    }
-}
 
 /* Navbar Section */
 
@@ -105,6 +95,20 @@ body {
 
 /* Button styling Section */
 
+/* Style for project links */
+.project-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Default color for links */
+}
+
+.project-link:hover {
+    color: #ffd9b3; /* Change color on hover */
+}
+
+.project-link:visited {
+    color: white; /* Ensure visited links remain white */
+}
+
 .btn-primary {
     background-color: orange;
     border-color: orange;
@@ -115,6 +119,42 @@ body {
     background-color: #ffd9b3;
     border-color: #ffd9b3;
     color: black;
+}
+
+/* Recent Projects Section (index.html) */
+#recent-projects {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+    gap: 20px; /* Add spacing between cards */
+    justify-content: center; /* Center the cards horizontally */
+    margin-top: 20px;
+}
+
+#recent-projects .project-card {
+    color: white;
+    background-color: #cc6600;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: calc(33.333% - 20px); /* Three cards per row with spacing */
+    max-width: 300px; /* Limit the maximum width of cards */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+#recent-projects .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    background-color: #e67300;
+}
+
+#recent-projects .project-image {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* Project list styling section */
