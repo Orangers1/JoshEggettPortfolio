@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<script src="js/project-data.js"></script>
+<script src="js/project-list.js"></script>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project Overview</title>
+  <title>All Projects</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:wght@400;700&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,29 +29,12 @@
   </header>
   <div class="navbar-divider"></div>
 
-  <!-- Project Overview Section -->
-  <section id="project-overview" class="container">
-    <h1 class="project-title"></h1>
-    <p class="project-meta"></p>
-    <div class="row">
-      <div class="col-md-8">
-        <p class="project-description"></p>
-        <br>
-        <p class="project-description2"></p>
-
-        <div class="project-links">
-          <a href="#" target="_blank" class="btn btn-primary">View on GitHub</a>
-          <a href="#" target="_blank" class="btn btn-secondary">Release</a>
-        </div>
+  <!-- Projects Section -->
+  <section id="projects" class="container">
+    <h2>All Projects</h2>
+    <div class="row" id="project-list">
+        <!-- Project cards will be dynamically added here -->
       </div>
-      <div class="col-md-4 text-center">
-        <img src="" alt="Project Logo" class="project-logo">
-      </div>
-    </div>
-    <hr>
-    <p class="project-details"></p>
-    
-
   </section>
 
   <!-- Footer -->
@@ -56,8 +42,7 @@
     <p>&copy; 2025 Josh Eggett. All rights reserved.</p>
   </footer>
 
-  <script src="js/project-data.js"></script>
-  <script src="js/projects.js"></script>
+
 </body>
 
 </html>
