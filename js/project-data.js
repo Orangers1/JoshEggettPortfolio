@@ -14,7 +14,7 @@ const projects = {
     project2: {
       title: "Algo Wiz Educational App",
       meta: "2025 • C++ • QT - desktop Application",
-      description: "As a team of 6 we designed, developed and presented an educational app designed to teach about basic computer science algorithms.",
+      description: "As a team of 6 we designed, developed and presented an educational app designed to teach about basic computer science algorithms. Built using QT and C++, includes a simple implementation of Box2d physics engine to make main menu more interactive.",
       description2: "This project was developed as part of a university course, where we learned about software development methodologies and teamwork management including Scrum, and Agile practices. There is currently no pre-built version of the app available, but the source code is available on GitHub.",
       github: "https://github.com/Orangers1/AlgoWizApplication",
       release: "https://github.com/Orangers1/AlgoWizApplication",
@@ -44,11 +44,21 @@ const projects = {
     project5: {
         title: "Sprite Smith",
         meta: "2025 • Application Development • C++ - QT",
-        description: "A simple application to create sprites and view animation. Developed as a small team during school.",
+        description: "A simple application to create sprites and view animation. Developed as a small team during school, using QT and C++.",
         description2: "This project was developed in a more structured format to learn about software development methodologies with stricter deadlines and requirements such as waterfall.",
         github: "https://github.com/Orangers1/Sprite-Smith",
         release: "https://github.com/Orangers1/Sprite-Smith",
         image: "assets/SpriteSmithImage.png",
         details: "Currently no release build of the app but the source code is available on GitHub. The version history is missing as it was originally developed in a private repository and later migrated here.",
-    }
-  };
+    },
+    project6: {
+        title: "Spreadsheet Application",
+        meta: "C# • Blazor - Web Application",
+        description: "A simple spreadsheet application built using C# and Blazor. This project was developed as part of a university course, where we learned about web development and C# programming.",
+        description2: "Project was developed with pair programming as a team of 2, and includes functionality to create, edit and save spreadsheets.",
+        image: "assets/SpreadsheetImage.png",
+        details: "This project has no prebuilt release at this moment. Originally made as part of university coursework. The source code is available on GitHub, but version history is missing as it was migrated from a private university repository.",
+        release: "https://github.com/Orangers1/SpreadsheetApplication",
+        github: "https://github.com/Orangers1/SpreadsheetApplication"
+  }
+}
