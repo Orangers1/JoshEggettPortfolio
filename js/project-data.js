@@ -1,5 +1,14 @@
 // Define project data
 const projects = {
+    project7: {
+      title: "Style Streak - Drawing Application",
+      meta: "2025 • Android Development • Kotlin",
+      description: "A drawing application for Android devices, allowing users to create and share their artwork with other users, and backup files to the cloud.",
+      description2: "This project was developed as part of a class on Mobile application development on a small team.",
+      image: "assets/StyleStreakImage.png",
+      details: "No prebuilt version is available as we didn't want to keep the api keys for cloud features active outside the scope of the project.",
+      github: "https://github.com/Amurdock6/CS4530Project_u1244572_u1433303_u1249773/tree/mainandroid/CS4530Project_u1244572_u1433303_u1249773"
+    },
     project1: {
       title: "Some games I've made.",
       meta: "2023-2025 • Game Development • Unreal Engine",
@@ -8,7 +17,7 @@ const projects = {
       description2: "This project also includes the source code for a game jam project I made during a weekend with the University Gamecraft club on a small team.",
       github: "https://github.com/Orangers1/GamecraftTeam12Jam",
       release: "https://orangers.itch.io/",
-      image: "assets/GamesSiteImage.png.png",
+      image: "assets/GamesSiteImage.png",
       details: "A collection of games I have developed using Unreal Engine 5. These games are available on itch.io, and the source code for a game jam project I made during a weekend with the University Gamecraft club on a small team." ,
     },
     project2: {
