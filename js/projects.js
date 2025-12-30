@@ -12,7 +12,6 @@ function loadProject() {
       document.querySelector(".project-description2").textContent = project.description2 || ""; // Optional description2
 
       document.querySelector(".btn-primary").href = project.github;
-      document.querySelector(".btn-secondary").href = project.release;
       document.querySelector(".project-logo").src = project.image;
       document.querySelector(".project-details").textContent = project.details;
     } else {
