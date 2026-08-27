@@ -14,6 +14,18 @@ function loadProject() {
       document.querySelector(".btn-primary").href = project.github;
       document.querySelector(".project-logo").src = project.image;
       document.querySelector(".project-details").textContent = project.details;
+
+      // add secondary button if release is available.
+      if (project.release) {
+        const releaseButton = document.createElement("a");
+        releaseButton.className = "btn btn-secondary";
+        releaseButton.href = project.release;
+        releaseButton.textContent = "Release";
+        document.querySelector(".project-links").appendChild(releaseButton);
+      }
+
+
+
     } else {
       // Handle invalid or missing project key
       document.querySelector("#project-overview").innerHTML = `

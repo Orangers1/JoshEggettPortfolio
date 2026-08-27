@@ -115,11 +115,26 @@ body {
     color: black;
 }
 
+
+
 .btn-primary:hover {
     background-color: #ffd9b3;
     border-color: #ffd9b3;
     color: black;
 }
+
+.btn-secondary {
+    background-color: orange;
+    border-color: orange;
+    color: black;
+}
+
+.btn-secondary:hover {
+    background-color: #ffd9b3;
+    border-color: #ffd9b3;
+    color: black;
+}
+
 
 /* Recent Projects Section (index.html) */
 #recent-projects {

@@ -7,7 +7,8 @@ const projects = {
       description2: "This project was developed as part of a class on Mobile application development on a small team.",
       image: "assets/StyleStreakImage.png",
       details: "No prebuilt version is available as we didn't want to keep the api keys for cloud features active outside the scope of the project.",
-      github: "https://github.com/Amurdock6/CS4530Project_u1244572_u1433303_u1249773/tree/mainandroid/CS4530Project_u1244572_u1433303_u1249773"
+      github: "https://github.com/Amurdock6/CS4530Project_u1244572_u1433303_u1249773/tree/mainandroid/CS4530Project_u1244572_u1433303_u1249773",
+      release: null
     },
     project1: {
       title: "Games I've made.",
@@ -26,7 +27,7 @@ const projects = {
       description: "As a team of 6 we designed, developed and presented an educational app designed to teach about basic computer science algorithms. Built using QT and C++, includes a simple implementation of Box2d physics engine to make main menu more interactive.",
       description2: "This project was developed as part of a university course, where we learned about software development methodologies and teamwork management including Scrum, and Agile practices. There is currently no pre-built version of the app available, but the source code is available on GitHub.",
       github: "https://github.com/Orangers1/AlgoWizApplication",
-      release: "https://github.com/Orangers1/AlgoWizApplication",
+      release: null,
       image: "assets/algoWizImage.png",
       details: "The version control history is missing for this project, as it was originally developed using a private repository. However, the project is still available for download and use.",
     },
@@ -46,7 +47,7 @@ const projects = {
         description: "During high school I was part of a Vex Robotics team. We designed, built and programmed a robot to compete in the Vex Robotics Competitions (VRC).",
         description2: "Wrote both autonomous and driver-controlled functionality for several different robots using C++ and the Vex Robotics API including a PID controller and UI screen selection system. Placed 2nd in the state competition in 2022 and placed in the top 1% at the world championships in 2022.",
         github: "https://github.com/Orangers1/2131J-2022-2023-Robotics-Code",
-        release: "https://github.com/Orangers1/2131J-2022-2023-Robotics-Code",
+        release: null,
         image: "assets/vexRoboticsImage.png",
         details: "No release version of the code is available as it was built for the specific Vex Robotics hardware and API. However, the source code is available on GitHub for reference."
     },
@@ -56,7 +57,7 @@ const projects = {
         description: "A simple application to create sprites and view animation. Developed as a small team during school, using QT and C++.",
         description2: "This project was developed in a more structured format to learn about software development methodologies with stricter deadlines and requirements such as waterfall.",
         github: "https://github.com/Orangers1/Sprite-Smith",
-        release: "https://github.com/Orangers1/Sprite-Smith",
+        release: null,
         image: "assets/SpriteSmithImage.png",
         details: "Currently no release build of the app but the source code is available on GitHub. The version history is missing as it was originally developed in a private repository and later migrated here.",
     },
@@ -67,7 +68,7 @@ const projects = {
         description2: "Project was developed with pair programming as a team of 2, and includes functionality to create, edit and save spreadsheets.",
         image: "assets/SpreadsheetImage.png",
         details: "This project has no prebuilt release at this moment. Originally made as part of university coursework. The source code is available on GitHub, but version history is missing as it was migrated from a private university repository.",
-        release: "https://github.com/Orangers1/SpreadsheetApplication",
+        release: null,
         github: "https://github.com/Orangers1/SpreadsheetApplication"
   }
 }
