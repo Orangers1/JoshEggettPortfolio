@@ -10,15 +10,15 @@ const projects = {
       github: "https://github.com/Amurdock6/CS4530Project_u1244572_u1433303_u1249773/tree/mainandroid/CS4530Project_u1244572_u1433303_u1249773"
     },
     project1: {
-      title: "Some games I've made.",
-      meta: "2023-2025 • Game Development • Unreal Engine",
-      description: "A couple simple games I made using Unreal Engine 5.1. They are available on itch.io but are currently only built for Windows downloads."
+      title: "Games I've made.",
+      meta: "2023-2026 • Game Development • Unreal Engine",
+      description: "A couple simple games I made using various game engines. They are available on itch.io with releases for each game (platform varies, but at least one is available for browser)"
       + " These games were made as part of a small team to learn more about teamwork and development life cycles in a shorter timeframe.",
       description2: "This project also includes the source code for a game jam project I made during a weekend with the University Gamecraft club on a small team.",
       github: "https://github.com/Orangers1/GamecraftTeam12Jam",
       release: "https://orangers.itch.io/",
       image: "assets/GamesSiteImage.png",
-      details: "A collection of games I have developed using Unreal Engine 5. These games are available on itch.io, and the source code for a game jam project I made during a weekend with the University Gamecraft club on a small team." ,
+      details: "A collection of games I have developed using Unreal Engine 5, Unity, and Godot. These games are available on itch.io, and the source code for a game jam project I made during a weekend with the University Gamecraft club on a small team." ,
     },
     project2: {
       title: "Algo Wiz Educational App",
@@ -32,9 +32,9 @@ const projects = {
     },
     project3: {
       title: "Portfolio Website",
-      meta: "2025 • Web Development • HTML, CSS, JavaScript",
-      description: "Basic website to showcase my projects and skills. This website is built using HTML, CSS, and JavaScript, and is designed to showcase projects and uses basic javascript to dynamically load project data for the project list and overview pages.",
-      description2: "The readme is missing from the repository as github pages would default to opening the README.md file instead of the index.html file, and I haven't fixed this yet. The website is still in active development, and I plan to add more projects and features in the future.",
+      meta: "2024-2026 • Web Development • HTML, CSS, JavaScript",
+      description: "Website to showcase my projects and skills. This website is built using HTML, CSS, and JavaScript, and is designed to showcase projects and uses basic javascript to dynamically load project data for the project list and overview pages.",
+      description2: "The readme is missing from the repository as github pages (what i'm using to host the site) would default to opening the README.md file instead of the index.html file, and I haven't fixed this yet. The website is still in active development, and I plan to add more projects and features in the future.",
       github: "https://github.com/Orangers1/JoshEggettPortfolio",
       release: "https://orangers1.github.io/JoshEggettPortfolio/",
       image: "assets/PortfolioSiteImage.png",
